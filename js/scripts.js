@@ -31,6 +31,7 @@ function add(){
 }
 
 function subtract(){
+  equals();
   myTotal = [Number(myNum), "-"];
   myNum = "";
 }
@@ -59,7 +60,7 @@ btn5.addEventListener("click", setNum);
 btn6.addEventListener("click", setNum);
 btn7.addEventListener("click", setNum);
 btn8.addEventListener("click", setNum);
-btn8.addEventListener("click", setNum);
+btn9.addEventListener("click", setNum);
 btnAdd.addEventListener("click", add);
 btnSub.addEventListener("click", subtract);
 btnEq.addEventListener("click", equals);
